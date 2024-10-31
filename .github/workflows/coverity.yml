@@ -19,7 +19,7 @@ jobs:
           coverity_url: https://scan.coverity.com/projects/gbikkiintel-openfl
           coverity_user: ${{ vars.COVERITY_USER }}
           coverity_passphrase: ${{ secrets.COVERITY_TOKEN }}
-          coverity_project_name: ${{ github.event.repository.name }}
+          coverity_project_name: gbikkiintel-openfl
           coverity_stream_name: ${{ github.event.repository.name }}-${{ github.ref_name }}
           coverity_policy_view: 'Outstanding Issues'
           coverity_waitForScan: true   # Used to support the async mode
