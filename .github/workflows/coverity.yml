@@ -25,7 +25,7 @@ jobs:
           # coverity_waitForScan: false   # Used to support the async mode
           coverity_local: true
           ### Uncomment below configuration if Synopsys Bridge diagnostic files needs to be uploaded
-           include_diagnostics: true  
+          include_diagnostics: true  
       
       - name: Coverity PR Scan
         if: ${{ github.event_name == 'pull_request' }}
