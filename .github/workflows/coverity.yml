@@ -17,7 +17,7 @@ jobs:
         uses: synopsys-sig/synopsys-action@v1.13.0
         with:
           coverity_url: https://scan.coverity.com/projects/gbikkiintel-openfl
-          coverity_user: ${{ secrets.COVERITY_USER }}
+          coverity_user: ${{ vars.COVERITY_USER }}
           coverity_passphrase: ${{ secrets.COVERITY_TOKEN }}
           coverity_project_name: ${{ github.event.repository.name }}
           coverity_stream_name: ${{ github.event.repository.name }}-${{ github.ref_name }}
