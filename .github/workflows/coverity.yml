@@ -38,7 +38,7 @@ jobs:
         uses: synopsys-sig/synopsys-action@v1.13.0
         with:
           coverity_url: ${{ env.COVERITY_URL }}
-          coverity_user: ${{ secrets.COVERITY_USER }}
+          coverity_user: giribabu.bikki@intel.com
           coverity_passphrase: ${{ secrets.COVERITY_TOKEN}}
           coverity_project_name: ${{ env.COVERITY_PROJECT_NAME }}
           coverity_stream_name: ${{ env.COVERITY_STREAM_NAME }}
