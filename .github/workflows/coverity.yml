@@ -16,7 +16,7 @@ permissions:
 env:
   COVERITY_PROJECT_NAME: gbikkiintel-openfl
   COVERITY_STREAM_NAME: gbikkiintel-openfl
-  COVERITY_URL: https://scan4.scan.coverity.com/
+  COVERITY_URL: https://scan8.scan.coverity.com/
 
 
 
