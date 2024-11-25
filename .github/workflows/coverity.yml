@@ -15,7 +15,7 @@ permissions:
 
 env:
   COVERITY_PROJECT_NAME: gbikkiintel/openfl
-  COVERITY_STREAM_NAME: gbikkiintel-openfl
+  COVERITY_STREAM_NAME: gbikkiintel/openfl
 
 
 
