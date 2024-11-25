@@ -14,8 +14,8 @@ permissions:
   id-token: write
 
 env:
-  COVERITY_PROJECT_NAME: gbikkiintel/openfl
-  COVERITY_STREAM_NAME: gbikkiintel/openfl
+  COVERITY_PROJECT_NAME: gbikkiintel-openfl
+  COVERITY_STREAM_NAME: gbikkiintel-openfl
 
 
 
