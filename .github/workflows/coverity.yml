@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 env:
-  COVERITY_PROJECT_NAME: gbikkiintel-openfl
+  COVERITY_PROJECT_NAME: gbikkiintel/openfl
   COVERITY_STREAM_NAME: gbikkiintel-openfl
 
 
@@ -38,6 +38,7 @@ jobs:
         with:
           email: ${{ vars.COVERITY_USER }}
           token: ${{ secrets.COVERITY_TOKEN }}
+          build_language: python
 
       - name: Coverity Full Scan
         uses: synopsys-sig/synopsys-action@v1.13.0
