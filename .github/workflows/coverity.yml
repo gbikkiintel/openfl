@@ -39,6 +39,7 @@ jobs:
           email: ${{ vars.COVERITY_USER }}
           token: ${{ secrets.COVERITY_TOKEN }}
           build_language: python
+          command: --no-command --fs-capture-search .
 
       - name: Coverity Full Scan
         uses: synopsys-sig/synopsys-action@v1.13.0
